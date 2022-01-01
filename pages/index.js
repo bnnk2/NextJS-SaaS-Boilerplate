@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import Hero from '../components/landing/Hero'
+import Head from "next/head";
+import Hero from "../components/landing/Header";
+import Hero2 from "../components/landing/Hero";
 
 export default function Home() {
   return (
@@ -10,9 +11,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Hero/>
+        <Hero />
       </main>
-
     </div>
-  )
+  );
 }
